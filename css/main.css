@@ -1,0 +1,345 @@
+﻿html,
+body {
+    float: left;
+    height: 100%;
+    margin: 0;
+    min-width: 100%;
+    padding: 0;
+}
+
+.multiline {
+    white-space: pre-wrap;
+}
+
+.overflow-hidden {
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.table-nowrap th,
+.table-nowrap td {
+    white-space: nowrap;
+}
+
+.table-overflow-hidden {
+    table-layout: fixed;
+}
+
+    .table-overflow-hidden th,
+    .table-overflow-hidden td {
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+.table-fixed {
+    table-layout: fixed;
+}
+
+.notification-type-badge {
+    background-color: #9b9a9a;
+    padding: 1px 5px;
+}
+
+.spinner-btn > .fa-spinner {
+    display: none;
+}
+
+.spinner-btn.show-spinner > .fa-spinner {
+    display: inline-block;
+}
+
+.required::after {
+    color: #dc3545;
+    content: '*';
+    margin-left: 5px;
+}
+
+.text-danger {
+    color: #dc3545 !important;
+}
+
+.form-control.is-invalid,
+.form-control.is-invalid:focus {
+    border-color: #dc3545;
+}
+
+.form-check {
+    margin-bottom: .5rem;
+}
+
+.modal-backdrop {
+    opacity: 1 !important;
+    background-color: rgba(0, 0, 0, 0.5) !important;
+}
+
+textarea.form-control {
+    height: 150px;
+}
+
+.user-info-container .logout-form {
+    display: flex;
+    align-items: center;
+}
+
+.language-form-container {
+    display: flex;
+    float: left;
+    margin-left: 20px;
+}
+
+    .language-form-container form {
+        margin-left: 10px;
+    }
+
+.application-form-section-card .document-constraints {
+    margin: -0.5rem 0 10px;
+}
+
+    .application-form-section-card .document-constraints .extentions {
+        margin-left: 10px;
+    }
+
+.application-form-section-card .uploaded-document-container .remove-btn {
+    margin-left: 10px;
+}
+
+.application-form-section-card .records-table .actions-col {
+    width: 165px;
+}
+
+.entity-record-form {
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+    padding: 20px;
+}
+
+    .entity-record-form .action-buttons {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+        .entity-record-form .action-buttons > button:not(:last-child) {
+            margin-right: 5px;
+        }
+
+.skills-group-container {
+    margin-bottom: 20px;
+}
+
+    .skills-group-container:last-of-type {
+        margin-bottom: 0;
+    }
+
+    .skills-group-container .title {
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+
+    .skills-group-container .skills-container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+        .skills-group-container .skills-container .form-check {
+            margin-right: 20px
+        }
+
+.job-opening-question > .form-check {
+    margin-bottom: 15px;
+}
+
+.job-opening-question .form-group .question-description {
+    margin: -0.5rem 0 10px;
+}
+
+.applicant-application-card .job-offers-container > h6,
+.applicant-application-card .interviews-container > h6,
+.applicant-application-card .letters-container > h6 {
+    margin: 15px 0 10px;
+}
+
+.applicant-application-card .job-offer,
+.applicant-application-card .interview,
+.applicant-application-card .letter {
+    padding: 8px 0;
+}
+
+    .applicant-application-card .job-offer .label {
+        margin: 0 5px;
+    }
+
+.applicant-application-card .draft-controls {
+    align-items: center;
+    display: flex;
+    margin-top: 10px;
+}
+
+.accept-or-reject-job-offer-modal .action-buttons {
+    float: right;
+}
+
+    .accept-or-reject-job-offer-modal .action-buttons > button:not(:last-child) {
+        margin-right: 5px;
+    }
+
+.applications-filter {
+    margin: 10px 0;
+}
+
+.applications-filter-item + .applications-filter-item::before {
+    color: #ffdc2d;
+    content: "/";
+    display: inline-block;
+    padding: 0 0.5rem;
+}
+
+.applications-filter-item.active {
+    color: #000000;
+}
+
+.job-opening-attachments .attachment {
+    padding: 5px 0;
+}
+
+.delete-draft-modal form {
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.hr-process-action .action-icon {
+    float: left;
+    font-size: 25px;
+    margin: 5px 10px 0 0;
+}
+
+.sign-document .action-icon {
+    float: left;
+    font-size: 25px;
+    margin: 0 10px 0 0;
+}
+
+.sign-document .title {
+    line-height: 25px;
+}
+/*------------------------------------------------------------------------*/
+
+#header .header-top-bar,
+#header .header-top-bar .btn-link {
+    font-size: 12px;
+}
+
+    #header .header-top-bar .user-info-container,
+    #header .header-top-bar .btn-link {
+        color: #ffffff;
+    }
+
+        #header .header-top-bar .btn-link:hover {
+            color: #FFDc2D;
+        }
+
+    #header .header-top-bar .user-info-container {
+        float: left;
+    }
+
+        #header .header-top-bar .user-info-container .btn-link {
+            margin-left: 25px;
+            padding-left: 0;
+            padding-right: 0;
+        }
+
+.login-or-register-container .login-col {
+    border-left: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.form-steps > li.completed > a {
+    color: #eeeeee;
+    text-decoration: none;
+}
+
+    .form-steps > li.completed > a:hover {
+        color: #ffffff;
+    }
+
+.paginationjs .paginationjs-pages ul {
+    display: inline-block;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    border: 1px solid #e7e7e7;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    list-style: none;
+    background: #ffffff;
+}
+
+.paginationjs .paginationjs-pages li {
+    float: left;
+    border-right: 1px solid #e7e7e7;
+}
+
+    .paginationjs .paginationjs-pages li:last-child {
+        border-right: 0;
+    }
+
+    .paginationjs .paginationjs-pages li > a {
+        display: block;
+        width: 30px;
+        height: 28px;
+        color: inherit;
+        text-align: center;
+        text-decoration: none;
+        line-height: 28px;
+    }
+
+    .paginationjs .paginationjs-pages li:not(.disabled) > a:hover {
+        color: #FFDc2D;
+    }
+
+    .paginationjs .paginationjs-pages li.active > a {
+        background: #efefef;
+        color: inherit;
+        cursor: default;
+    }
+
+    .paginationjs .paginationjs-pages li.disabled > a {
+        cursor: default;
+        opacity: .3;
+    }
+
+.feedback_competency_record {
+    padding: 10px;
+}
+
+    .feedback_competency_record .form-group {
+        margin-bottom: 0px;
+    }
+
+.feedback_competency_criteria_record {
+    padding: 15px;
+}
+
+    .feedback_competency_criteria_record .form-group {
+        margin-bottom: 0px;
+    }
+
+    .feedback_competency_criteria_record h6 {
+        font-family: 'Roboto Condensed', sans-serif;
+        font-size: 15px;
+        background-color: rgb(245, 245, 245);
+        font-weight: bold;
+    }
+
+.self-service-link{
+    margin-top:15px;
+    margin-bottom:0px;
+}
+
+.interview_additional_info_header {
+    font-size: 15px;
+    text-transform: none;
+    font-weight: 700;
+    margin-top: 10px;
+    margin-bottom: 2px;
+    font-family: 'Roboto Condensed', sans-serif;
+    line-height: 1.1;
+}
